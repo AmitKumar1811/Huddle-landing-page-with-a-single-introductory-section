@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*
+{
+margin: 0%;
+padding: 0%;
+
+}
+body
+{
+width:100%;
+height: 100vh;
+background-image: url("images/bg-desktop.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-color: hsl(257, 40%, 49%);
+font-family: 'Open Sans', sans-serif; 
+position: relative;   
+}
+.logo
+{
+margin-left:8%;
+margin-top:1%;    
+}
+.main
+{
+height:450px;    
+display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap:50px;
+margin-top:1%;
+margin-left:8%;
+color: rgb(231, 234, 236);
+
+}
+.right
+{
+margin-top:40px;
+}
+.right h2
+{
+font-size:40px;   
+}
+.right p
+{
+margin-top:35px;
+font-size:14px;
+word-spacing:3px;
+line-height: 20px;     
+}
+.btn
+{
+width:150px;
+height:40px;
+background-color: rgb(231, 234, 236);
+color:hsl(300, 69%, 71%);
+border-radius:20px;
+border: 1px solid rgb(231, 234, 236); 
+margin-top:40px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+font-weight: bold;  
+}
+.btn:hover
+{
+background-color:hsl(300, 69%, 71%);
+color:aliceblue;
+}
+.icons 
+{
+position: absolute;
+right:200px;
+bottom:60px;
+background-color:rgb(103,75,175);
+
+}
+.icons1 
+{
+position: absolute;
+right:160px;
+bottom:60px;
+background-color:rgb(103,75,175);
+
+}
+.icons2 
+{
+position: absolute;
+right:120px;
+bottom:60px;
+justify-content: center;
+background-color:rgb(103,75,175);
+
+}
+.icons:hover ,.icons1:hover,.icons2:hover
+{
+border: 1px solid white;
+border-radius:45px;
+background-color: hsl(300, 69%, 71%);
+}
